@@ -1,0 +1,50 @@
+{
+    "report": "Colombian Departments",
+    "created_at": "2024-06-13",
+    "departments": [
+        {
+            "name": "Antioquia",
+            "capital": "Medellín",
+            "population": 6700000,
+            "cities": [
+                "Medellín",
+                "Bello",
+                "Itagüí",
+                "Envigado"
+            ]
+        },
+        {
+            "name": "Santander",
+            "capital": "Bucaramanga",
+            "population": 2200000,
+            "cities": [
+                "Bucaramanga",
+                "Floridablanca",
+                "Girón",
+                "Piedecuesta"
+            ]
+        },
+        {
+            "name": "Valle del Cauca",
+            "capital": "Cali",
+            "population": 4500000,
+            "cities": [
+                "Cali",
+                "Palmira",
+                "Buenaventura",
+                "Tuluá"
+            ]
+        },
+        {
+            "name": "Atlántico",
+            "capital": "Barranquilla",
+            "population": 2500000,
+            "cities": [
+                "Barranquilla",
+                "Soledad",
+                "Malambo",
+                "Sabanalarga"
+            ]
+        }
+    ]
+}
