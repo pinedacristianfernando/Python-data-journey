@@ -30,6 +30,9 @@ def run_pipeline(input_file, output_folder):
         json.dump(results, f, indent=4, ensure_ascii=False)
 
     # Step 4 — Log
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Pipeline done — {len(results)} records saved to {output_path}")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Pipeline done\n"
+          f"Cities read: {len(data)}\n"
+          f"Cities after filer: {len(results)}\n"
+          f"Records saved to {output_path}")
 
 run_pipeline("week3_day1_colombian_cities.csv", "week3_day3_data_output")
