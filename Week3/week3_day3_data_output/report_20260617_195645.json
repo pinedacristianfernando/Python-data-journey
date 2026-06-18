@@ -1,0 +1,26 @@
+[
+    {
+        "﻿city": "Bogotá",
+        "department": "Cundinamarca",
+        "population": "8000000",
+        "avg_salary_cop": "4500000",
+        "salary_usd": 1071.43,
+        "category": "major"
+    },
+    {
+        "﻿city": "Medellín",
+        "department": "Antioquia",
+        "population": "2500000",
+        "avg_salary_cop": "3800000",
+        "salary_usd": 904.76,
+        "category": "major"
+    },
+    {
+        "﻿city": "Barranquilla",
+        "department": "Atlántico",
+        "population": "1200000",
+        "avg_salary_cop": "3400000",
+        "salary_usd": 809.52,
+        "category": "major"
+    }
+]
