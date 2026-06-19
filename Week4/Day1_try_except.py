@@ -30,12 +30,28 @@ Write a function load_csv(filepath) that tries to open and read a CSV file. Hand
 types: FileNotFoundError, PermissionError, and a general Exception. Test it by calling it with a 
 file that exists and one that doesn't.
 """
-try:
-    with open("data.csv", "r") as f:
-        data = list(csv.DictReader(f))
-except FileNotFoundError as e:
-    print(f"Error: {e}. file not found. Check the path.")
-except PermissionError as e:
-    print(f"Error: {e} there is a permission error.")
-except Exception as e:
-    print(f"Unexpected error: {e}")
+def load_csv(file):
+    try:
+        with open(file, "r") as f:
+            data = list(csv.DictReader(f))
+            print(f"Loaded {len(data)} rows successfully")
+            return data
+    except FileNotFoundError as e:
+        print(f"Error: {e}. file not found. Check the path.")
+        return None
+    except PermissionError as e:
+        print(f"Error: {e} there is a permission error.")
+        return None
+    except Exception as e:
+        print(f"Unexpected error: {e}")
+        return None
+
+# Test with a file that exists
+load_csv("Week3/week3_day1_colombian_cities.csv")
+
+# Test with a file that doesn't exist
+load_csv("fake_file.csv")
+
+
+
+
