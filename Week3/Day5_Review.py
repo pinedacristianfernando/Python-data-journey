@@ -16,11 +16,7 @@ def run_pipeline(input_file, output_folder):
         data = list(csv.DictReader(f))
 
     # Step 2 — Transform
-    for row in data:
-        row["salary_usd"] = round(float(row["avg_salary_cop"]) / 4200, 2)
-        row["category"] = "major" if int(row["population"]) > 100000 else "minor"
-
-    results = [row for row in data if int(row["salary_usd"]) > 800]
+    results = [row for row in data if int(row["population"]) > 1000000]
 
     # Step 3 — Save
     os.makedirs(output_folder, exist_ok=True)
@@ -30,9 +26,7 @@ def run_pipeline(input_file, output_folder):
         json.dump(results, f, indent=4, ensure_ascii=False)
 
     # Step 4 — Log
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Pipeline done\n"
-          f"Cities read: {len(data)}\n"
-          f"Cities after filer: {len(results)}\n"
-          f"Records saved to {output_path}")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Pipeline done — {len(results)} records saved to {output_path}")
 
-run_pipeline("week3_day1_colombian_cities.csv", "week3_day3_data_output")
+
+run_pipeline("colombian_cities.csv", "week3_output")
