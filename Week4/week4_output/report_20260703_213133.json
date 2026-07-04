@@ -1,0 +1,26 @@
+[
+    {
+        "city": "Unknown",
+        "population": 8000000.0,
+        "avg_salary_cop": 4500000.0,
+        "department": "Cundinamarca"
+    },
+    {
+        "city": "Unknown",
+        "population": 2500000.0,
+        "avg_salary_cop": 3800000.0,
+        "department": "Antioquia"
+    },
+    {
+        "city": "Unknown",
+        "population": 2200000.0,
+        "avg_salary_cop": 3100000.0,
+        "department": "Valle del Cauca"
+    },
+    {
+        "city": "Unknown",
+        "population": 1200000.0,
+        "avg_salary_cop": 3400000.0,
+        "department": "Atlántico"
+    }
+]
