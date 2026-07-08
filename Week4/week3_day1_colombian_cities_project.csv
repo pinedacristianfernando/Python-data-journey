@@ -1,7 +1,8 @@
 ﻿city,department,population,avg_salary_cop
 Bogotá,Cundinamarca,8000000,4500000
 Medellín,Antioquia,2500000,3800000
-Cali,Valle del Cauca,2200000,3100000
+Cali,,2200000,3100000
 Barranquilla,Atlántico,1200000,3400000
-Bucaramanga ,Santander,600.000,3200000
-Cartagena,Bolívar,1000000,2000000
+Bucaramanga ,Santander,-600000,3200000
+,,,
+Cartagena,Bolívar,1000000,0

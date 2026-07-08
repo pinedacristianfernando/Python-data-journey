@@ -1,0 +1,6 @@
+[
+    "ERROR: 2026-07-07 22:03:23: Clean Error: There is no department",
+    "ERROR: 2026-07-07 22:03:23: Clean Error: Invalid population -600000: must be greater than 0",
+    "ERROR: 2026-07-07 22:03:23: Clean Error: There is no city",
+    "ERROR: 2026-07-07 22:03:23: Clean Error: Invalid salary 0: must be greater than 0"
+]

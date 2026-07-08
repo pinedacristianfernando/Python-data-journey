@@ -1,0 +1,20 @@
+[
+    {
+        "city": "Bogotá",
+        "department": "Cundinamarca",
+        "population": 8000000.0,
+        "avg_salary_cop": 4500000.0
+    },
+    {
+        "city": "Medellín",
+        "department": "Antioquia",
+        "population": 2500000.0,
+        "avg_salary_cop": 3800000.0
+    },
+    {
+        "city": "Barranquilla",
+        "department": "Atlántico",
+        "population": 1200000.0,
+        "avg_salary_cop": 3400000.0
+    }
+]
