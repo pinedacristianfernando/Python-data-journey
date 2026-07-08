@@ -1,0 +1,50 @@
+[
+    {
+        "city": "Unknown",
+        "department": "Cundinamarca",
+        "population": 8000000.0,
+        "avg_salary_cop": 4500000.0,
+        "salary_usd": 1071.43,
+        "category": "major"
+    },
+    {
+        "city": "Unknown",
+        "department": "Antioquia",
+        "population": 2500000.0,
+        "avg_salary_cop": 3800000.0,
+        "salary_usd": 904.76,
+        "category": "major"
+    },
+    {
+        "city": "Unknown",
+        "department": "Valle del Cauca",
+        "population": 2200000.0,
+        "avg_salary_cop": 3100000.0,
+        "salary_usd": 738.1,
+        "category": "major"
+    },
+    {
+        "city": "Unknown",
+        "department": "Atlántico",
+        "population": 1200000.0,
+        "avg_salary_cop": 3400000.0,
+        "salary_usd": 809.52,
+        "category": "major"
+    },
+    {
+        "city": "Unknown",
+        "department": "Santander",
+        "population": 600000.0,
+        "avg_salary_cop": 3200000.0,
+        "salary_usd": 761.9,
+        "category": "major"
+    },
+    {
+        "city": "Unknown",
+        "department": "Bolívar",
+        "population": 1000000.0,
+        "avg_salary_cop": 2900000.0,
+        "salary_usd": 690.48,
+        "category": "major"
+    }
+]
