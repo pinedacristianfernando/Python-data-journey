@@ -26,6 +26,7 @@ print(df["population"].mean())  # average population
 print(df.iloc[0])   # first row by position
 print(df.loc[0])    # first row by label (same here)
 
+#EXERCISE
 """
 First install Pandas: pip install pandas in your terminal. Then create a DataFrame with at least 8 
 Colombian cities and columns: city, department, population, avg_salary_cop, area_km2. Run all the 
