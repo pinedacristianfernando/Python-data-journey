@@ -41,7 +41,7 @@ total_population = df.groupby("department")["population"].sum()
 print("The total population per department is:\n", total_population, "\n")
 
 #2
-average_salary = df.groupby("department")["avg_salary_cop"].sum().sort_values(ascending=False)
+average_salary = df.groupby("department")["avg_salary_cop"].mean().sort_values(ascending=False)
 print("The average salary per department is:\n", average_salary, "\n")
 
 #3
