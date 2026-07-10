@@ -7,7 +7,7 @@ data = {
     "avg_salary_cop": [4500000, 3800000, 3100000, 3200000, 2900000],
 }
 df = pd.DataFrame(data)
-"""
+
 # Boolean mask — creates a Series of True/False
 mask = df["population"] > 1000000
 print(mask)         # True, True, True, False, False...
@@ -31,7 +31,7 @@ df[df["population"] > 1000000][["city", "population"]]
 
 # .query() — SQL-like syntax, very readable
 df.query("population > 1000000 and avg_salary_cop > 3000000")
-"""
+
 #EXERCISE
 """
 Using your DataFrame from Day 1: 1) filter cities with population over 1M, 2) filter cities where 
