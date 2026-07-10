@@ -1,7 +1,5 @@
 import pandas as pd
 
-from Day2_Filtering import average_salary
-
 data = {
     "city": ["Bogotá", "Medellín", "Cali", "Bucaramanga", "Cartagena"],
     "department": ["Cundinamarca", "Antioquia", "Valle del Cauca", "Santander", "Bolívar"],
