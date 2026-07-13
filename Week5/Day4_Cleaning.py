@@ -1,5 +1,5 @@
 import pandas as pd
-import numpy as np
+
 """
 # Check for nulls
 df.isnull().sum()          # nulls per column
