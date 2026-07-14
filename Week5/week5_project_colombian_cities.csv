@@ -1,0 +1,21 @@
+city,department,region,population,avg_salary_cop,area_km2,gdp_per_capita_cop,unemployment_rate,universities,hospitals,avg_temp_celsius
+Bogotá,Cundinamarca,Centro,8000000,4500000,1587,28000000,10.2,45,120,14
+Medellín,Antioquia,Occidente,2500000,3800000,380,22000000,12.1,28,65,22
+Cali,Valle del Cauca,Occidente,2200000,3100000,564,15000000,14.5,22,58,24
+Barranquilla,Atlántico,Caribe,1200000,3400000,154,18000000,11.3,18,42,30
+Cartagena,Bolívar,Caribe,1000000,2900000,609,14000000,13.8,12,35,28
+Bucaramanga,Santander,Oriente,600000,3200000,165,19000000,9.8,15,28,23
+Cúcuta,Norte de Santander,Oriente,750000,2500000,1176,11000000,16.2,8,22,29
+Ibagué,Tolima,Centro,580000,2700000,1439,12000000,13.1,9,20,24
+Santa Marta,Magdalena,Caribe,520000,2600000,2393,13000000,15.4,10,18,30
+Manizales,Caldas,Occidente,430000,2900000,508,17000000,11.7,14,24,18
+Pereira,Risaralda,Occidente,500000,2800000,702,16000000,12.3,12,21,21
+Villavicencio,Meta,Oriente,470000,3000000,1328,14000000,10.9,7,19,26
+Pasto,Nariño,Sur,450000,2400000,1181,10000000,14.8,11,22,14
+Montería,Córdoba,Caribe,490000,2600000,3141,11000000,15.1,6,18,28
+Neiva,Huila,Sur,340000,2700000,1553,12000000,13.6,8,16,27
+Armenia,Quindío,Occidente,310000,2800000,230,15000000,12.8,10,14,20
+Sincelejo,Sucre,Caribe,280000,2400000,284,10000000,16.5,5,13,29
+Popayán,Cauca,Sur,340000,2500000,512,11000000,14.2,9,17,18
+Valledupar,Cesar,Caribe,480000,2600000,3745,13000000,13.9,7,15,30
+Tunja,Boyacá,Centro,210000,2700000,118,14000000,11.4,13,18,13
